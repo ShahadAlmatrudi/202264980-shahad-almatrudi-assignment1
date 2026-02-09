@@ -9,10 +9,11 @@
 <body>
 
   <!-- Header / Navigation -->
-  <header>
-    <nav>
-      <h1>Shahad Almatrudi</h1>
-      <ul>
+  <header class="site-header">
+    <nav class="nav container">
+      <h1 class="logo">Shahad Almatrudi</h1>
+
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -20,146 +21,146 @@
     </nav>
   </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a software engineering student with an interest in web development and building practical applications.
-      I enjoy writing clean, well-structured code and continuously improving my technical skills.
-    </p>
-    <p><strong>Tagline:</strong> Turning ideas into simple and functional solutions.</p>
-  </section>
+  <main class="container">
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a software engineering student with an interest in web development and building practical applications.
+        I enjoy writing clean, well-structured code and continuously improving my technical skills.
+      </p>
+      <p><strong>Tagline:</strong> Turning ideas into simple and functional solutions.</p>
+    </section>
 
-  <!-- Projects Section -->
-<section id="projects">
-  <h2>Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
 
-  <div class="projects-grid">
+      <div class="projects-grid">
 
-    <!-- Project 1 -->
-    <article class="project-card">
-      <img src="assets/images/horse-racing-placeholder.png" alt="Horse Racing System project preview" />
-      <div class="project-content">
-        <h3>Horse Racing System</h3>
-        <p class="project-meta">Pair Project • JavaFX + MySQL</p>
+        <!-- Project 1 -->
+        <article class="project-card">
+          <img src="assets/images/horse-racing-placeholder.png" alt="Horse Racing System project preview" />
+          <div class="project-content">
+            <h3>Horse Racing System</h3>
+            <p class="project-meta">Pair Project • JavaFX + MySQL</p>
 
+            <p>
+              A database-driven horse racing management system with an interactive JavaFX UI.
+              It supports race operations, ownership management, trainer/stable assignment, and performance analytics.
+            </p>
 
-        <p>
-          A database-driven horse racing management system with an interactive JavaFX UI.
-          It supports race operations, ownership management, trainer/stable assignment, and performance analytics.
-        </p>
+            <h4>Key features</h4>
+            <ul>
+              <li>Add races with validation (track existence check before insertion).</li>
+              <li>Delete owner with cascading handling and archiving deleted horse data to <code>old_info</code>.</li>
+              <li>Move horses between stables with integrity checks.</li>
+              <li>Browse horses by owner last name and view related trainer details.</li>
+              <li>Winners + trainer/track statistics (wins, total winnings, race participation).</li>
+            </ul>
 
-        <h4>Key features</h4>
-        <ul>
-          <li>Add races with validation (track existence check before insertion).</li>
-          <li>Delete owner with cascading handling and archiving deleted horse data to <code>old_info</code>.</li>
-          <li>Move horses between stables with integrity checks.</li>
-          <li>Browse horses by owner last name and view related trainer details.</li>
-          <li>Winners + trainer/track statistics (wins, total winnings, race participation).</li>
-        </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> Java, JavaFX, MySQL, SQL (CRUD, joins, constraints)
+            </p>
 
-        <p class="project-tech">
-          <strong>Tech:</strong> Java, JavaFX, MySQL, SQL (CRUD, joins, constraints)
-        </p>
+            <p class="project-contribution">
+              <strong>My contribution:</strong> Database design, SQL queries, JavaFX–MySQL integration, and interface design.
+            </p>
 
-        <p class="project-contribution">
-         <strong>My contribution:</strong> Database design, SQL queries, JavaFX–MySQL integration, and interface design.
-        </p>
+            <div class="project-actions">
+              <a class="btn" href="#" aria-disabled="true">Demo</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </div>
+        </article>
 
-        <div class="project-actions">
-          <a class="btn" href="#" aria-disabled="true">Demo </a>
-          <a class="btn btn-outline" href="#" aria-disabled="true">GitHub </a>
-        </div>
+        <!-- Project 2 -->
+        <article class="project-card">
+          <img src="assets/images/folder-visualizer-placeholder.png" alt="Folder Visualizer project preview" />
+          <div class="project-content">
+            <h3>Folder Visualizer</h3>
+            <p class="project-meta">JavaFX • Desktop Application</p>
+
+            <p>
+              A JavaFX application that visualizes folder structures to help users understand directory organization.
+              Built with a clear UI and organized code structure.
+            </p>
+
+            <h4>Highlights</h4>
+            <ul>
+              <li>Displays folder hierarchy in a readable visual format.</li>
+              <li>Designed with clean separation between UI and logic.</li>
+              <li>Focused on maintainable structure and consistent UI components.</li>
+            </ul>
+
+            <p class="project-tech">
+              <strong>Tech:</strong> Java, JavaFX, OOP (structured components)
+            </p>
+
+            <div class="project-actions">
+              <a class="btn" href="#" aria-disabled="true">Demo</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <img src="assets/images/route-visualizer-placeholder.png" alt="Route Visualizer project preview" />
+          <div class="project-content">
+            <h3>Route Visualizer</h3>
+            <p class="project-meta">JavaFX • Desktop Application</p>
+
+            <p>
+              A route visualization tool built with JavaFX that presents routes clearly through a user-friendly interface.
+              Developed with attention to design structure and code organization.
+            </p>
+
+            <h4>Highlights</h4>
+            <ul>
+              <li>Visual route display with an intuitive UI layout.</li>
+              <li>Structured implementation with clear responsibilities (UI vs logic).</li>
+              <li>Reusable components and consistent styling approach.</li>
+            </ul>
+
+            <p class="project-tech">
+              <strong>Tech:</strong> Java, JavaFX, structured design patterns/OOP
+            </p>
+
+            <div class="project-actions">
+              <a class="btn" href="#" aria-disabled="true">Demo</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </div>
+        </article>
+
       </div>
-    </article>
+    </section>
 
-    <!-- Project 2 -->
-    <article class="project-card">
-      <img src="assets/images/folder-visualizer-placeholder.png" alt="Folder Visualizer project preview" />
-      <div class="project-content">
-        <h3>Folder Visualizer</h3>
-        <p class="project-meta">JavaFX • Desktop Application</p>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
 
-        <p>
-          A JavaFX application that visualizes folder structures to help users understand directory organization.
-          Built with a clear UI and organized code structure.
-        </p>
+      <form>
+        <label>
+          Name:
+          <input type="text" name="name" required />
+        </label>
 
-        <h4>Highlights</h4>
-        <ul>
-          <li>Displays folder hierarchy in a readable visual format.</li>
-          <li>Designed with clean separation between UI and logic.</li>
-          <li>Focused on maintainable structure and consistent UI components.</li>
-        </ul>
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
 
-        <p class="project-tech">
-          <strong>Tech:</strong> Java, JavaFX, OOP (structured components)
-        </p>
+        <label>
+          Message:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
 
-        <div class="project-actions">
-          <a class="btn" href="#" aria-disabled="true">Demo </a>
-          <a class="btn btn-outline" href="#" aria-disabled="true">GitHub </a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Project 3 -->
-    <article class="project-card">
-      <img src="assets/images/route-visualizer-placeholder.png" alt="Route Visualizer project preview" />
-      <div class="project-content">
-        <h3>Route Visualizer</h3>
-        <p class="project-meta">JavaFX • Desktop Application</p>
-
-        <p>
-          A route visualization tool built with JavaFX that presents routes clearly through a user-friendly interface.
-          Developed with attention to design structure and code organization.
-        </p>
-
-        <h4>Highlights</h4>
-        <ul>
-          <li>Visual route display with an intuitive UI layout.</li>
-          <li>Structured implementation with clear responsibilities (UI vs logic).</li>
-          <li>Reusable components and consistent styling approach.</li>
-        </ul>
-
-        <p class="project-tech">
-          <strong>Tech:</strong> Java, JavaFX, structured design patterns/OOP
-        </p>
-
-        <div class="project-actions">
-          <a class="btn" href="#" aria-disabled="true">Demo </a>
-          <a class="btn btn-outline" href="#" aria-disabled="true">GitHub </a>
-        </div>
-      </div>
-    </article>
-
-  </div>
-</section>
-
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-
-    <form>
-      <label>
-        Name:
-        <input type="text" name="name" required />
-      </label>
-
-      <label>
-        Email:
-        <input type="email" name="email" required />
-      </label>
-
-      <label>
-        Message:
-        <textarea name="message" rows="5" required></textarea>
-      </label>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>
