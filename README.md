@@ -1,5 +1,3 @@
-# 202264980-shahad-almatrudi-assignment1
-
 # Personal Portfolio – Assignment 1
 
 This project is a simple personal portfolio website created for Assignment 1.
