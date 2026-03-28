@@ -1,7 +1,7 @@
 # Shahad Almatrudi Portfolio - Assignment 2
 
 This project is my personal portfolio website for Assignment 2. It is an improved version of my Assignment 1 portfolio, with added interactivity, better user experience, and more modern JavaScript-based behavior.
->>>>>>> 867ef05 (adding fetures to follow HW2)
+
 
 The website introduces dynamic features such as a dark/light theme toggle, live project filtering, and contact form validation with user feedback. These additions make the portfolio more interactive and show clear progress beyond the first assignment.
 
