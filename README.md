@@ -1,104 +1,102 @@
-# Shahad Almatrudi Portfolio - Assignment 3
+# 💼 Shahad Almatrudi Portfolio — Assignment 4
 
-This project is my personal portfolio website for Assignment 3. It builds on Assignment 2 by adding more dynamic features, API integration, and improved user interaction.
-
----
-
-## Features
-
-### From Assignment 2
-
-* Responsive portfolio design
-* Dark/light theme toggle (saved using localStorage)
-* Live project search filtering
-* Contact form validation with user feedback
-* Reveal-on-scroll animations
-
-### New in Assignment 3
-
-* Personalized welcome message (user input + localStorage)
-* Project sorting (Default, A–Z, Z–A)
-* GitHub API integration (dynamic repository display)
-* Improved UI consistency for dynamic content
+This project is my personal portfolio website developed for Assignment 4.  
+It builds on my previous assignments by improving interactivity, adding dynamic features, and refining the overall design.
 
 ---
 
-## Technologies Used
+## 🌐 Live Website
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* localStorage API
-* Fetch API (GitHub API)
-* Google Fonts
-* Devicon icons
+🔗 https://shahadalmatrudi.github.io/202264980-shahad-almatrudi-assignment4/
 
 ---
 
-## Folder Structure
+## 📖 Overview
 
-assignment-3/
-├── README.md
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-└── .gitignore
+The goal of this project is to present my work in a clean and structured way while applying modern web development concepts.  
+The website focuses on usability, simple design, and interactive elements that improve the user experience.
 
 ---
 
-## How to Run
+## ✨ Features
 
-1. Open the project folder
-2. Open `index.html` in a browser
-3. (Optional) Use Live Server in VS Code
-
----
-
-## Dynamic Features Explanation
-
-### 1. Personalized Welcome
-
-Users can enter their name, which is saved in localStorage and displayed as a welcome message.
-
-### 2. Project Sorting
-
-Projects can be sorted using a dropdown menu:
-
-* Default order
-* Alphabetical (A–Z)
-* Reverse alphabetical (Z–A)
-
-### 3. GitHub API Integration
-
-Repositories are fetched dynamically from GitHub using the Fetch API and displayed as styled project cards.
+- 📱 Responsive layout (works on desktop and mobile)  
+- 🌙 Dark / light mode toggle (saved using localStorage)  
+- 🔍 Project search with real-time filtering  
+- 🔄 Project sorting (default, A–Z, Z–A)  
+- 📡 GitHub API integration to display additional repositories  
+- 🧾 Project details modal for better presentation  
+- 📩 Contact form with validation and user feedback  
+- 🎬 Smooth animations while scrolling  
+- ⬆️ Back-to-top button  
 
 ---
 
-## Error Handling
+## 🛠️ Technologies Used
 
-* API error message if GitHub fails
-* Empty state message for project search
-* Form validation errors with user feedback
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Fetch API (GitHub API)  
+- localStorage  
+- Google Fonts (Poppins)  
+- Devicon icons  
+
+---
+
+## 📁 Project Structure
+
+202264980-shahad-almatrudi-assignment4/  
+│  
+├── index.html  
+├── README.md  
+│  
+├── css/  
+│   └── styles.css  
+│  
+├── js/  
+│   └── script.js  
+│  
+├── assets/  
+│   └── images/  
+│  
+├── docs/  
+│   ├── ai-usage-report.md  
+│   └── technical-documentation.md  
+│  
+└── presentation/  
+    ├── demo-video.mp4  
+    └── slides.pdf  
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository  
+2. Open the project folder  
+3. Open `index.html` in your browser  
+   (or use Live Server in VS Code)
+
+---
+
+## Notes
+
+- The GitHub section loads data dynamically using the GitHub API  
+- Some features depend on JavaScript being enabled  
+- All input fields are validated before submission  
 
 ---
 
 ## Future Improvements
 
-* Connect contact form to a real backend
-* Add filtering by project category
-* Improve accessibility (ARIA roles)
-* Deploy using GitHub Pages
+- Connect the contact form to a real backend  
+- Add more filtering options for projects  
+- Improve accessibility and keyboard navigation  
+- Enhance mobile navigation experience  
 
 ---
 
 ## Author
 
-Shahad Almatrudi
+**Shahad Almatrudi**  
 Software Engineering Student
